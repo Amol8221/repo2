@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T01:26:36 IST" name="Failed suite [Default suite]" finished-at="2024-07-03T01:28:17 IST" duration-ms="100482">
+    <groups>
+      <group name="group1">
+        <method signature="Execution.run(java.lang.String)[pri:0, instance:com.testcases.Execution@6aba2b86]" name="run" class="com.testcases.Execution"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2024-07-03T01:26:36 IST" name="Default test(failed)" finished-at="2024-07-03T01:28:17 IST" duration-ms="100482">
+      <class name="com.testcases.Execution">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:com.testcases.Execution@6aba2b86]" started-at="2024-07-03T01:26:36 IST" name="LaunchApplication" finished-at="2024-07-03T01:27:55 IST" duration-ms="78837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="run(java.lang.String)[pri:0, instance:com.testcases.Execution@6aba2b86]" started-at="2024-07-03T01:27:55 IST" name="run" data-provider="jsondata" finished-at="2024-07-03T01:28:14 IST" duration-ms="18794" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.testcases.Execution@6aba2b86]" started-at="2024-07-03T01:28:17 IST" name="closeApplication" finished-at="2024-07-03T01:28:17 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.testcases.Execution -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
+</testng-results>
