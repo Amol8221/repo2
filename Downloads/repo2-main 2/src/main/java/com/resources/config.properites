@@ -1,0 +1,4 @@
+url =https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+browserName=Chrome
+username=Admin
+password=admin123
